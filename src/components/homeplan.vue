@@ -99,7 +99,8 @@ export default {
         showRecipes(plan) {
             this.$store.dispatch('getRecipes', plan);
         }
-    }
+    },
+  
 };
 </script>
 

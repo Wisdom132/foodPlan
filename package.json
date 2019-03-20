@@ -9,6 +9,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0-rc.1",
     "axios": "^0.18.0",
+    "firebase": "^5.9.0",
     "material-design-icons-iconfont": "^3.0.3",
     "register-service-worker": "^1.6.2",
     "roboto-fontface": "*",

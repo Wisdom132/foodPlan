@@ -1,10 +1,11 @@
 <template>
+
     <v-container grid-list-lg>
-         <v-layout row wrap>
-            <v-flex xs12 sm6 md6 lg4 v-for="(item, idx) in recipes" :key="idx">
-                <v-card>
+        <v-layout row wrap>
+            <v-flex xs12 sm6 md6 lg4 v-for="(item , idx) in recipes" :key="idx">
+                <v-card >
                     <v-responsive>
-                        <v-img :src="item.recipe.image"></v-img>
+                        <v-img :src="item.recipe.image" height="500px"></v-img>
                     </v-responsive>
 
                     <v-card-text>
@@ -28,11 +29,11 @@
 
 <script>
 export default {
-    name:'mealrecipes',
+    name:'mealrecipes',  
     computed: {
         recipes() {
             return this.$store.state.recipes;
-        }
-    }
+        },
+    },
 }
 </script>

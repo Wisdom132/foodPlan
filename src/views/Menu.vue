@@ -15,11 +15,7 @@ export default {
         homeplan,
         mealrecipes
     },
-    // computed: {
-    //     recipes() {
-    //         return this.$store.state.recipes;
-    //     }
-    // }
+   
 }
 </script>
 <style scoped>

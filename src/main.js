@@ -9,6 +9,7 @@ import './registerServiceWorker'
 import Vuetify from 'vuetify'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import '@/firebase/'
 
 Vue.use(Vuetify, {
   iconfont: 'mdi' 
